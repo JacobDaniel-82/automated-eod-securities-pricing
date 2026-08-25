@@ -289,7 +289,7 @@ The dashboard provides visibility into:
 * ETF liquidity trends
 * 30-day ETF liquidity ranking
 
-![Market Liquidity Overview](powerbi/market_liquidity_overview.png)
+![Market Liquidity Overview](powerbi/market_liquidity_overview.jpg)
 
 ### Equity Performance & Watchlist Insights
 
@@ -302,7 +302,7 @@ The second dashboard focuses on:
 * Watchlist performance
 * Equity and ETF contribution
 
-![Equity Watchlist Insights](powerbi/equity_watchlist_insights.png)
+![Equity Watchlist Insights](powerbi/equity_watchlist_insights.jpg)
 
 ### Full Dashboard
 
@@ -408,8 +408,8 @@ automated-eod-securities-pricing/
 ├── powerbi/
 │   ├── securities_market_insights.pbix
 │   ├── securities_market_insights.pdf
-│   ├── market_liquidity_overview.png
-│   └── equity_watchlist_insights.png
+│   ├── market_liquidity_overview.jpg
+│   └── equity_watchlist_insights.jpg
 │
 ├── docs/
 │   ├── architecture.png
