@@ -1,0 +1,75 @@
+# =========================
+# Environment & Secrets
+# =========================
+.env
+.env.*
+!.env.example
+
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# =========================
+# Airflow
+# =========================
+airflow.cfg
+airflow.db
+airflow-webserver.pid
+airflow-scheduler.pid
+airflow-worker.pid
+logs/
+
+# =========================
+# Local temporary files
+# =========================
+tmp/
+*.tmp
+*.temp
+
+# Historical/local generated CSVs
+*.csv
+!powerbi/**/*.csv
+
+# =========================
+# Docker
+# =========================
+.docker/
+
+# =========================
+# IDE / Editors
+# =========================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Jupyter
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# Credentials / Keys
+# =========================
+*.pem
+*.key
+*.crt
